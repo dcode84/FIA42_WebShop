@@ -59,5 +59,19 @@
     <Folder Include="Views" />
     <Folder Include="Stored Procedures" />
     <Folder Include="Tables" />
+    <Folder Include="Stored Procedures\User" />
+    <Folder Include="Stored Procedures\Tag" />
+    <Folder Include="Stored Procedures\ProductTag" />
+    <Folder Include="Stored Procedures\Product" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Product.sql" />
+    <Build Include="Tables\Tag.sql" />
+    <Build Include="Tables\ProductTag.sql" />
+    <Build Include="Views\ProductView.sql" />
+    <Build Include="Stored Procedures\User\spProduct_Get.sql" />
+    <Build Include="Stored Procedures\Tag\spTag_GetAll.sql" />
+    <Build Include="Stored Procedures\ProductTag\ProductTag_GetByProduct.sql" />
+    <Build Include="Stored Procedures\Product\spProduct_Get.sql" />
   </ItemGroup>
 </Project>
